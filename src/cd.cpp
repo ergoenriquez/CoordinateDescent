@@ -45,8 +45,10 @@ float soft_threshold(float X, float thresh) {
 		return 0;
 	} else if (X > 0) {
 		return X - thresh;
-	} else {
+	} else if (X < 0) {
 		return X + thresh;
+	} else {
+		return X;
 	}
 }
 
