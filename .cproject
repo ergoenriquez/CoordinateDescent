@@ -18,7 +18,7 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1203611538." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1351711850" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.debug.432059595" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.debug"/>
-							<builder arguments="-I C:\Users\jason\hacarus\CoordinateDescent\src -O2 -DNDEBUG &quot;..\src\test_cd.cpp&quot; &quot;..\src\cd.cpp&quot; -o CoordinateDescent" buildPath="${workspace_loc:/CoordinateDescent}/Debug" command="g++" enabledIncrementalBuild="true" id="cdt.managedbuild.builder.gnu.cross.359713292" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<builder arguments="-I C:\Users\jason\Projects\CoordinateDescent\src -O2 -DNDEBUG &quot;..\src\test_cd.cpp&quot; &quot;..\src\cd.cpp&quot; -o CoordinateDescent" buildPath="${workspace_loc:/CoordinateDescent}/Debug" command="g++" enabledIncrementalBuild="true" id="cdt.managedbuild.builder.gnu.cross.359713292" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.1619250188" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug">
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.889223851" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -63,7 +63,7 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.release.430837499." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.release.1345733553" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.release">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.1322697864" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
-							<builder arguments="-I C:\Users\jason\hacarus\CoordinateDescent\src -O2 -DNDEBUG &quot;..\src\test_cd.cpp&quot; &quot;..\src\cd.cpp&quot; -o CoordinateDescent" buildPath="${workspace_loc:/CoordinateDescent}/Release" command="g++" id="cdt.managedbuild.builder.gnu.cross.129233667" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<builder arguments="-I C:\Users\jason\Projects\CoordinateDescent\src -O2 -DNDEBUG &quot;..\src\test_cd.cpp&quot; &quot;..\src\cd.cpp&quot; -o CoordinateDescent" buildPath="${workspace_loc:/CoordinateDescent}/Release" command="g++" id="cdt.managedbuild.builder.gnu.cross.129233667" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.594150210" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1702151739" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
