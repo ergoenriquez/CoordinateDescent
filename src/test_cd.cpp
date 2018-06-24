@@ -33,9 +33,9 @@ int main() {
 		idx(i) = (rand() %n_features) + 1;
 	}
 
-    std::random_device rd;  // random device class instance; seed for number generator
-    std::mt19937 gen(rd()); // Mersenne Twister number generator; initialized with seed from above instance
-    std::normal_distribution<float> nd(0.0, 1.0); //random generator from normal distribution
+	std::random_device rd;  // random device class instance; seed for number generator
+	std::mt19937 gen(rd()); // Mersenne Twister number generator; initialized with seed from above instance
+	std::normal_distribution<float> nd(0.0, 1.0); //random generator from normal distribution
 
 	VectorXf w(n_features);
 	for(i = 0; i < n_features; ++i) {
