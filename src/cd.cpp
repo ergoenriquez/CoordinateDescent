@@ -6,11 +6,9 @@
 // Description : Coordinate Descent in C++ using Eigen
 //============================================================================
 
-//#include <ctime>
-//#include <cstdio>
 #include "cd.hpp"
 #include <cmath>
-#include <Eigen/Dense>
+#include "Eigen/Dense"
 
 using namespace Eigen;
 using namespace std;
@@ -29,7 +27,6 @@ Eigen::VectorXf coordinate_descent(const Eigen::MatrixXf& X, const Eigen::Vector
 
 	Eigen::VectorXf r_j(n_samples);
 	for (i = 0; i < n_iter; ++i) {
-//		std::printf("Iteration # %d time: %d\n", i, time(NULL));	//debug info; check time per iteration
 		for (j = 0; j < n_features; ++j) {
 			w(j) = 0.0;
 			r_j = y - X * w;

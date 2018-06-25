@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <ctime>
-#include <Eigen/Dense>
+#include "Eigen/Dense"
 #include <random>
 #include "cd.hpp"
 
@@ -99,8 +99,6 @@ int main() {
 	std::cout << "\n n_nonzero_coefs: " << n_nonzero_coefs;
 	std::cout << "\n n_iter: " << n_iter;
 	std::cout << "\n alpha: " << alpha << "\n\n";
-
-	system("PAUSE");
 
 	return 0;
 }

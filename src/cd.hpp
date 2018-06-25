@@ -10,7 +10,7 @@
 #define SRC_CD_HPP_
 
 #include <cmath>
-#include <Eigen/Dense>
+#include "Eigen/Dense"
 
 Eigen::VectorXf coordinate_descent(const Eigen::MatrixXf& X, const Eigen::VectorXf& y, float alpha, int n_iter);
 float soft_threshold(float X, float thresh);
