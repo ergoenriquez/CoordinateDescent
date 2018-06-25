@@ -4,7 +4,7 @@
 
 To download the repository, go to a local directory of your preference then run the following command in Git Bash:
 
-`$ git clone https://github.com/ergoenriquez/CoordinateDescent.git
+'$ git clone https://github.com/ergoenriquez/CoordinateDescent.git'
 
 ## BUILD
 
@@ -12,13 +12,13 @@ This Coordinate Descent algorithm migrated to C++ (from Python & NumPy) utilizes
 Hence, it is necessary to include the library during build using GCC as follows:
 
 ### Short way
-`$ make
+'$ make'
 
 ### Long way
-`$ g++ -I "Eigen/" -O2 -DNDEBUG "test_cd.cpp" "cd.cpp" -o CoordinateDescent --verbose
+'$ g++ -I "Eigen/" -O2 -DNDEBUG "test_cd.cpp" "cd.cpp" -o CoordinateDescent --verbose'
 
 ### Clean
-`$ make clean
+'$ make clean'
 
 For your reference, "cd.cpp" contains the algorithm while "test_cd.cpp" contains the unit test code.
 
@@ -29,4 +29,4 @@ Matrix multiplication in Eigen seemed to take significantly longer if this optim
 
 To run the program, execute as follows:
 
-`$ ./CoordinateDescent
+'$ ./CoordinateDescent'
