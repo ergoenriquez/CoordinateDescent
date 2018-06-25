@@ -22,7 +22,7 @@ Hence, it is necessary to include the library during build using GCC as follows:
 
 For your reference, "cd.cpp" contains the algorithm while "test_cd.cpp" contains the unit test code.
 
-The -O2 -DNDEBUG option is added for performance optimization.
+The `-O2 -DNDEBUG` option is added for performance optimization.
 Matrix multiplication in Eigen seemed to take significantly longer if this optimization option is not enabled.
 
 ## RUN
