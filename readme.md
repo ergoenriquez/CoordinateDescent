@@ -1,10 +1,4 @@
-=========================================================
- Name        : readme.md
- Author      : Jason Enriquez
- Version     :
- Copyright   :
- Description : Coordinate Descent Unit Test Read Me file
-=========================================================
+# Simplified Coordinate Descent Algorithm
 
 To download the repository, go to a local directory of your preference then run the following command in Git Bash:
 
