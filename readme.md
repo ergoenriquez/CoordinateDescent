@@ -15,7 +15,7 @@ Hence, it is necessary to include the library during build using GCC as follows:
 `$ make`
 
 ### Long way
-'$ g++ -I "Eigen/" -O2 -DNDEBUG "test_cd.cpp" "cd.cpp" -o CoordinateDescent --verbose'
+`$ g++ -I "Eigen/" -O2 -DNDEBUG "test_cd.cpp" "cd.cpp" -o CoordinateDescent --verbose`
 
 ### Clean
 `$ make clean`
