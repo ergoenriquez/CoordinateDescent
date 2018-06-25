@@ -1,13 +1,15 @@
 # Simplified Coordinate Descent Algorithm
 
+## DOWNLOAD
+
 To download the repository, go to a local directory of your preference then run the following command in Git Bash:
 
 $ git clone https://github.com/ergoenriquez/CoordinateDescent.git
 
+## BUILD
+
 This Coordinate Descent algorithm migrated to C++ (from Python & NumPy) utilizes the Eigen library. 
 Hence, it is necessary to include the library during build using GCC as follows:
-
-## BUILD
 
 ### Short way
 $ make
